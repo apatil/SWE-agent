@@ -7,7 +7,7 @@ import os, sys
 
 PACKAGE_DIR = Path(__file__).resolve().parent
 assert PACKAGE_DIR.is_dir()
-REPO_ROOT = os.path.join(sys.prefix(), "src/SWE-Agent")
+REPO_ROOT = os.path.join(sys.prefix, "src/SWE-Agent")
 assert REPO_ROOT.is_dir()
 CONFIG_DIR = PACKAGE_DIR.parent / "config"
 assert CONFIG_DIR.is_dir()
